@@ -1,1 +1,1 @@
-This repo contains my project 3a whihc exampands on the data stock visualizer.
+This repo contains my project 3a which expands on the data stock visualizer.
