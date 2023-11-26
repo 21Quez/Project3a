@@ -1,0 +1,18 @@
+<img src="data:image/png;base64,{{ plot_url }}">
+
+<form method="POST">
+
+  <select name="symbol">
+    {% for symbol in symbols %}
+      <option>{{symbol}}</option>
+    {% endfor %}
+  </select>
+  
+  <select name="chart_type">
+    <option>line</option>
+    <option>bar</option>
+  </select>
+  
+  <button type="submit">Visualize</button>
+  
+</form>
